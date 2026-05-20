@@ -9,41 +9,28 @@ body {
 /* Hero met poster als achtergrond */
 .hero {
     position: relative;
-    height: 60vh; /* lager zodat poster direct zichtbaar is */
+    height: 60vh;
     background: url('poster.jpg') center/cover no-repeat;
 }
 
 .overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.55);
+    background: rgba(0, 0, 0, 0.45);
 }
 
-.hero-content {
-    position: relative;
-    z-index: 1;
+/* Poster als blok */
+.poster-section {
     text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 0 20px;
+    padding: 20px 20px 10px;
+    margin-top: -20px; /* trekt poster omhoog tegen hero */
 }
 
-.hero h1 {
-    font-size: 48px;
-    color: #ff3333;
-    margin-bottom: 10px;
-    text-shadow: 0 0 10px rgba(0,0,0,0.8);
-}
-
-.subtitle {
-    font-size: 20px;
-    color: #ffffff;
-    margin-bottom: 8px;
-}
-
-.tagline {
-    font-size: 18px;
-    color: #dddddd;
+.poster-section img {
+    width: 90%;
+    max-width: 650px;
+    border-radius: 8px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.8);
 }
 
 /* Features */
@@ -90,17 +77,5 @@ footer {
 @media (max-width: 600px) {
     .hero {
         height: 50vh;
-    }
-
-    .hero h1 {
-        font-size: 34px;
-    }
-
-    .subtitle {
-        font-size: 18px;
-    }
-
-    .tagline {
-        font-size: 16px;
     }
 }
