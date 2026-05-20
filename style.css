@@ -64,8 +64,13 @@ footer {
     margin-top: 30px;
     color: #777;
 }
+
 section {
     text-align: center;
     width: 100%;
     margin: 0 auto;
+}
+
+section h2 {
+    margin-top: 10px;
 }
