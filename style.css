@@ -9,7 +9,7 @@ body {
 /* Hero met poster als achtergrond */
 .hero {
     position: relative;
-    height: 30vh;
+    height: 12vh;
     background: url('poster.jpg') center/cover no-repeat;
 }
 
