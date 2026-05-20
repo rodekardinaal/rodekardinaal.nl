@@ -23,7 +23,7 @@ body {
 .poster-section {
     text-align: center;
     padding: 20px 20px 10px;
-    margin-top: -20px; /* trekt poster omhoog tegen hero */
+    margin-top: -80px; /* trekt poster omhoog tegen hero */
 }
 
 .poster-section img {
