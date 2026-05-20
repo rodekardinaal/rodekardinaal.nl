@@ -2,9 +2,9 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #050505;
+    background: #050505 url('background.jpg') center/cover no-repeat fixed;
     color: #eee;
-    text-align: center; /* centreert ALLE tekst */
+    text-align: center;
 }
 
 /* Poster bovenaan */
