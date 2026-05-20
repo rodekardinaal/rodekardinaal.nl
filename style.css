@@ -9,7 +9,7 @@ body {
 /* Hero met poster als achtergrond */
 .hero {
     position: relative;
-    height: 50vh;
+    height: 60vh; /* lager zodat poster direct zichtbaar is */
     background: url('poster.jpg') center/cover no-repeat;
 }
 
@@ -44,19 +44,6 @@ body {
 .tagline {
     font-size: 18px;
     color: #dddddd;
-}
-
-/* Poster als blok */
-.poster-section {
-    text-align: center;
-    padding: 40px 20px 20px;
-}
-
-.poster-section img {
-    width: 90%;
-    max-width: 650px;
-    border-radius: 8px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.8);
 }
 
 /* Features */
@@ -102,7 +89,7 @@ footer {
 /* Mobiel */
 @media (max-width: 600px) {
     .hero {
-        height: 70vh;
+        height: 50vh;
     }
 
     .hero h1 {
