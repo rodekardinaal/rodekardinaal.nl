@@ -41,11 +41,14 @@ body {
 }
 
 /* Locatie & aankondiging */
-.location,
-.announcement {
+
+.location {
     text-align: center;
-    padding: 30px 20px;
+    padding: 10px 20px; /* minder ruimte */
+    margin-top: -10px;  /* trekt hem omhoog */
 }
+
+
 
 .location h2,
 .announcement h2 {
